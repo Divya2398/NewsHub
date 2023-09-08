@@ -1,0 +1,26 @@
+@import "../../../../contants/mixins";
+
+.selection-cards {
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  font-family: "Varela Round", Arial, Helvetica, sans-serif;
+  color: $SECONDARY8 !important;
+  transition: all 0.2s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px !important;
+}
+
+.inactive-cards {
+  background-color: $SECONDARY4;
+  background: linear-gradient(to bottom, $PRIMARY5, $SECONDARY4);
+}
+.inactive-cards:hover {
+  background-color: $PRIMARY1;
+  background: linear-gradient(to bottom, $SECONDARY4, $PRIMARY5);
+  transform: scale(1.1);
+}
+.active-cards {
+  background-color: $PRIMARY2;
+  background: linear-gradient(to bottom, $SECONDARY6, $PRIMARY2);
+  color: $WHITE !important;
+}

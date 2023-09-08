@@ -1,0 +1,27 @@
+@import "../../../contants/mixins";
+.news-card {
+  //   background: $SECONDARY4 !important;
+  background: rgb(162, 219, 236) !important;
+  //   background: linear-gradient(to bottom, $SECONDARY5, $SECONDARY4);
+  border-radius: 1rem;
+}
+.card-footer-btn {
+  background-color: $SECONDARY9 !important;
+  color: $WHITE !important;
+}
+
+.news-decp {
+  font-family: "Varela Round", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  color: #464444;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.container-fluid {
+  --bs-gutter-x: 5rem !important;
+}

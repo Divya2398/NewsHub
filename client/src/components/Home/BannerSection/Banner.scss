@@ -1,0 +1,44 @@
+@import "../../../contants/mixins";
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .carousel-image {
+    aspect-ratio: auto;
+    object-fit: contain;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .carousel-image {
+    aspect-ratio: auto;
+    object-fit: contain;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .carousel-image {
+    aspect-ratio: 2/ 1;
+    object-fit: contain;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .carousel-image {
+    aspect-ratio: 3/ 1;
+    object-fit: contain;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .carousel-image {
+    aspect-ratio: 3/ 1;
+    object-fit: contain;
+  }
+}
+
+.banner-box {
+  background-image: linear-gradient(to bottom, $SECONDARY8 0%, #b4b1b1 100%);
+}
